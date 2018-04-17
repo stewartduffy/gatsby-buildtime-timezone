@@ -1,7 +1,7 @@
 {
   "name": "gatsby-plugin-buildtime-timezone",
   "description": "Gatsby plugin to display buildtime in local timezone",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Stewart Duffy <duffy.stewart@gmail.com >",
   "bugs": {
     "url": "https://github.com/stewartduffy/gatsby-buildtime-timezone/issues"
@@ -22,7 +22,13 @@
     "eslint-plugin-react": "^7.7.0"
   },
   "homepage": "https://github.com/stewartduffy/gatsby-buildtime-timezone",
-  "keywords": ["gatsby", "gatsby-plugin", "buildtime", "timezone", "moment"],
+  "keywords": [
+    "gatsby",
+    "gatsby-plugin",
+    "buildtime",
+    "timezone",
+    "moment"
+  ],
   "license": "MIT",
   "repository": {
     "type": "git",
