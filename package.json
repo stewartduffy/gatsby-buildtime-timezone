@@ -29,6 +29,7 @@
     "url": "https://github.com/stewartduffy/gatsby-buildtime-timezone"
   },
   "scripts": {
+    "release": "npm version patch -m 'Upgrade to %s'",
     "build": "babel src --out-dir . --ignore __tests__",
     "prepublish": "cross-env NODE_ENV=production npm run build",
     "watch": "NODE_ENV=production babel -w src --out-dir . --ignore __tests__"
