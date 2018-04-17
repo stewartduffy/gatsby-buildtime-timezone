@@ -1,0 +1,36 @@
+{
+  "name": "gatsby-buildtime-timezone",
+  "description": "Gatsby plugin to display buildtime in local timezone",
+  "version": "1.0.0",
+  "author": "Stewart Duffy <duffy.stewart@gmail.com >",
+  "bugs": {
+    "url": "https://github.com/stewartduffy/gatsby-buildtime-timezone/issues"
+  },
+  "dependencies": {
+    "moment-timezone": "^0.5.15"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-eslint": "^7.2.3",
+    "babel-preset-react-app": "^3.1.1",
+    "cross-env": "^5.1.4",
+    "eslint": "^4.19.1",
+    "eslint-config-react-app": "^2.1.0",
+    "eslint-plugin-flowtype": "^2.46.2",
+    "eslint-plugin-import": "^2.11.0",
+    "eslint-plugin-jsx-a11y": "^5.1.1",
+    "eslint-plugin-react": "^7.7.0"
+  },
+  "homepage": "https://github.com/stewartduffy/gatsby-buildtime-timezone",
+  "keywords": ["gatsby", "gatsby-plugin", "buildtime", "timezone", "moment"],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/stewartduffy/gatsby-buildtime-timezone"
+  },
+  "scripts": {
+    "build": "babel src --out-dir . --ignore __tests__",
+    "prepublish": "cross-env NODE_ENV=production npm run build",
+    "watch": "NODE_ENV=production babel -w src --out-dir . --ignore __tests__"
+  }
+}
