@@ -1,4 +1,4 @@
-# gatsby-buildtime-timezone
+# gatsby-plugin-buildtime-timezone
 
 Similar to the build in `buildTime` query, but provides the option to set the timezone for the build.
 
@@ -23,7 +23,7 @@ plugins: [
 ];
 ```
 
-#### Parameters
+### Parameters
 
 * [`tz`](https://momentjs.com/timezone/docs/#/using-timezones/parsing-in-zone/) accepts [Moment Timezone](https://momentjs.com/timezone/) method [`moment.tz()`](https://momentjs.com/timezone/docs/#/using-timezones/parsing-in-zone/) params.
 
