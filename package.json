@@ -1,7 +1,7 @@
 {
   "name": "gatsby-plugin-buildtime-timezone",
   "description": "Gatsby plugin to display buildtime in local timezone",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": "Stewart Duffy <duffy.stewart@gmail.com >",
   "bugs": {
     "url": "https://github.com/stewartduffy/gatsby-buildtime-timezone/issues"
